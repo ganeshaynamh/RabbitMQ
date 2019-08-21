@@ -20,7 +20,7 @@ namespace Fourth_Routing_Emitlog
 
                 var severity = (args.Length > 0) ? args[0] : "message size was less than 0";
 
-                var message = (args.Length > 1) ? string.Join(" ", args.ToArray()) : "hello world";
+                var message = (args.Length > 1) ? string.Join(" ", args.Skip(1).ToArray()) : "hello world";
 
                 var body = Encoding.UTF8.GetBytes(message);
 
