@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMessageRabbit", "SendMessageRabbit\SendMessageRabbit.csproj", "{3CE97385-966E-48F2-A2C7-8F69543B4D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendMessageRabbit", "SendMessageRabbit\SendMessageRabbit.csproj", "{3CE97385-966E-48F2-A2C7-8F69543B4D70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveMessageRabbit", "ReceiveMessageRabbit\ReceiveMessageRabbit.csproj", "{66D74CE7-21E3-450E-BEC4-29C293BF3DE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveMessageRabbit", "ReceiveMessageRabbit\ReceiveMessageRabbit.csproj", "{66D74CE7-21E3-450E-BEC4-29C293BF3DE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue_SendingMsgRabbit", "Queue_SendingMsgRabbit\Queue_SendingMsgRabbit.csproj", "{42B134CA-2CAD-4EAF-88CC-B378EA9FE5F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue_SendingMsgRabbit", "Queue_SendingMsgRabbit\Queue_SendingMsgRabbit.csproj", "{42B134CA-2CAD-4EAF-88CC-B378EA9FE5F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue_ReceivingMsgRabbit", "Queue_ReceivingMsgRabbit\Queue_ReceivingMsgRabbit.csproj", "{495A0B17-B2CE-45AC-906E-ECA434FCC1F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue_ReceivingMsgRabbit", "Queue_ReceivingMsgRabbit\Queue_ReceivingMsgRabbit.csproj", "{495A0B17-B2CE-45AC-906E-ECA434FCC1F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Third_exchange_SendingMsg", "Third_exchange_SendingMsg\Third_exchange_SendingMsg.csproj", "{71AF94BF-C53E-4753-AE37-CF7E848BFB48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Third_exchange_ReceiveMSg", "Third_exchange_ReceiveMSg\Third_exchange_ReceiveMSg.csproj", "{AFD09B07-DFA8-4DC3-ADE1-655555FF850B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{495A0B17-B2CE-45AC-906E-ECA434FCC1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495A0B17-B2CE-45AC-906E-ECA434FCC1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495A0B17-B2CE-45AC-906E-ECA434FCC1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AF94BF-C53E-4753-AE37-CF7E848BFB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AF94BF-C53E-4753-AE37-CF7E848BFB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AF94BF-C53E-4753-AE37-CF7E848BFB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AF94BF-C53E-4753-AE37-CF7E848BFB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD09B07-DFA8-4DC3-ADE1-655555FF850B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD09B07-DFA8-4DC3-ADE1-655555FF850B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD09B07-DFA8-4DC3-ADE1-655555FF850B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD09B07-DFA8-4DC3-ADE1-655555FF850B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
